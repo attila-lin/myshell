@@ -1,9 +1,14 @@
+/*
+ * Copyright (c) 2014, Yiyu Lin <linyiyu1992 at gmail dot com>
+ * All rights reserved.
+ */
+
 #ifndef LISTDEF_H
 #define LISTDEF_H
-#include<iostream>
-#include<vector>
-#include<string>
-#include"classheader.h"
+#include <iostream>
+#include <vector>
+#include <string>
+#include "classheader.h"
 class CmdList
 {
     vector<PipeLine*> vcmdl;

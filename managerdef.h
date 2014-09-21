@@ -1,13 +1,20 @@
+/*
+ * Copyright (c) 2014, Yiyu Lin <linyiyu1992 at gmail dot com>
+ * All rights reserved.
+ */
+
 #ifndef MANADEF_H
 #define MANADEF_H
-#include<list>
-#include<cstdio>
-#include<unistd.h>
-#include<signal.h>
-#include<sys/wait.h>
-#include"classheader.h"
-#include"alias.h"
+#include <list>
+#include <cstdio>
+#include <unistd.h>
+#include <signal.h>
+#include <sys/wait.h>
+#include "classheader.h"
+#include "alias.h"
 using namespace std;
+
+
 class ExecManager
 {
   CmdList* pclist;

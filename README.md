@@ -7,7 +7,7 @@
 	make
 
 运行方法
-	
+
 	pwd
 	cd ..
 	alias c=cd
@@ -16,5 +16,5 @@
 	p
 	unalias a
 	unalias p
-	
-	
+
+

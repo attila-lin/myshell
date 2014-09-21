@@ -1,13 +1,17 @@
+/*
+ * Copyright (c) 2014, Yiyu Lin <linyiyu1992 at gmail dot com>
+ * All rights reserved.
+ */
+
 #ifndef PIPEDEF_H
 #define PIPEDEF_H
-#include<iostream>
-#include<string>
-#include<vector>
-#include<cstdlib>
-#include"classheader.h"
-#include"managerdef.h"
+#include <iostream>
+#include <string>
+#include <vector>
+#include <cstdlib>
+#include "classheader.h"
+#include "managerdef.h"
 using namespace std;
-// extern ExecManager execm;
 
 class PipeLine
 {

@@ -1,17 +1,22 @@
+/*
+ * Copyright (c) 2014, Yiyu Lin <linyiyu1992 at gmail dot com>
+ * All rights reserved.
+ */
+
 #ifndef CMDDEF_H
 #define CMDDEF_H
 
-#include<iostream>
-#include<string>
-#include<vector>
-#include<cstdlib>
-#include<cstring>
-#include<fcntl.h>
-#include<sstream>
+#include <iostream>
+#include <string>
+#include <vector>
+#include <cstdlib>
+#include <cstring>
+#include <fcntl.h>
+#include <sstream>
 #include <sys/types.h>
 #include <sys/stat.h>
-#include"classheader.h"
-#include"managerdef.h"
+#include "classheader.h"
+#include "managerdef.h"
 using namespace std;
 extern ExecManager execm;
 
